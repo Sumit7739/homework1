@@ -36,7 +36,7 @@ int choice;
  
  
 ```
-
+h
 the following code will allow user to select which operation the user wants to perform
 
 now the functions which will perform the actual calculation is written 
@@ -92,6 +92,8 @@ void div()
 
 }
 ```
+![image of output](Capture.PNG "Image")
+![image of output](Capture1.PNG "Image 2")
 
 the above code will perform the claculations and input output when the methods are called.
 
