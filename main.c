@@ -1,18 +1,12 @@
-# simple calculator program in c
+#include<stdio.h>
 
-this is a program written in c to calculate addition, substraction, multiplication, division.
-
----
-
-### the main code 
-
-inside the main code there is an option for the choose which function of the calculator to be used. 
-
-
-entering 1 will select addition and 2 will choose substraction and 3 will choose multiplication and 4 will choose division
-
-``` c
-int choice;
+int main()
+{
+    printf("enter 1 for addition ");
+    printf("enter 2 for subtraction ");
+    printf("enter 3 for multiplication");
+    printf("enter 4 for division");
+    int choice;
     scanf("%d",&choice);
 
     if(n==1)
@@ -32,16 +26,9 @@ int choice;
     {
         div();
     }
- 
- 
- 
-```
+    
+}
 
-the following code will allow user to select which operation the user wants to perform
-
-now the functions which will perform the actual calculation is written 
-
-```c
 void add()
 {
     int num1,num2;
@@ -91,7 +78,3 @@ void div()
     printf("the division is %d " , num2/num1);
 
 }
-```
-
-the above code will perform the claculations and input output when the methods are called.
-
